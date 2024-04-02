@@ -12,7 +12,7 @@ To get started, follow these steps:
 
 2.Install the necessary dependency.
 
-# Process Overview
+## Process Overview
 ## Data Generation:
 
 •Synthetic images of traffic signs are generated using OpenCV and NumPy.
