@@ -33,15 +33,15 @@ The dataset for the code provided in your question is synthetic. This means that
 
 Here's a brief overview of how the dataset is generated within the code:
 
-1.The function generate_traffic_signs() creates synthetic images of traffic signs for three classes: 'stop', 'speed_limit_30', and 'speed_limit_60'.
+1. The function generate_traffic_signs() creates synthetic images of traffic signs for three classes: 'stop', 'speed_limit_30', and 'speed_limit_60'.
 
-2.For each class, a specified number of images (num_images_per_class) is generated.
+2. For each class, a specified number of images (num_images_per_class) is generated.
 
-3.A blank image is created, and the corresponding traffic sign class is drawn on the image using OpenCV's cv2.putText() function.
+3. A blank image is created, and the corresponding traffic sign class is drawn on the image using OpenCV's cv2.putText() function.
 
-4.Noise is added to the image to simulate variations using NumPy's random functions.
+4. Noise is added to the image to simulate variations using NumPy's random functions.
 
-5.The generated image and its corresponding label (class index) are appended to the dataset.
+5. The generated image and its corresponding label (class index) are appended to the dataset.
 
 # Usage 
 The code provided generates synthetic traffic sign images, trains a convolutional neural network (CNN) model to classify these images, and plots the training history.
